@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html -d ./docs",
+    "build": "parcel build index.html --out-dir ./docs",
     "serve-build": "parcel index.html --public-url /docs"
   },
   "devDependencies": {
