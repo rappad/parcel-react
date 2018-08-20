@@ -9,9 +9,8 @@
     "react-dom": "^16.4.2"
   },
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --out-dir docs",
-    "serve-build": "parcel index.html --public-url docs/index.html"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --out-dir ./docs --public-url ./"
   },
   "devDependencies": {
     "parcel-bundler": "^1.9.7"
