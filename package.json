@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html -d docs"
+    "build": "parcel build index.html -d ./docs",
+    "serve-build": "parcel index.html --public-url /docs"
   },
   "devDependencies": {
     "parcel-bundler": "^1.9.7"
