@@ -1,14 +1,28 @@
 body {
+    font-family: 'Courier New', Courier, monospace;
     background-color: palegreen;
     main {
         height: 100vh;
         h1 {
             color: palevioletred;
-            font-size: 10vw;
-            padding: 5vw;
+            font-size: 50px;
+            padding: 20px 50px;
+        }
+        @media(max-width:575px) {
+            h1 {
+                font-size: 8vw;
+                padding: 5vw;
+            }
         }
         section {
-            padding: 5vw;
+            font-size: 25px;
+            padding: 10px 50px;
+        }
+        @media(max-width:575px) {
+            section {
+                font-size: 4vw;
+                padding: 5vw;
+            }
         }
     }
 }
