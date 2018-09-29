@@ -1,28 +1,19 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: palegreen;
+
     main {
+        margin: 1rem;
         height: 100vh;
-        h1 {
-            color: palevioletred;
-            font-size: 50px;
-            padding: 20px 50px;
+
+        input {
+            height: 25px;
+            font-size: 13px;
+            font-family: 'Courier New', Courier, monospace;
         }
-        @media(max-width:575px) {
-            h1 {
-                font-size: 8vw;
-                padding: 5vw;
-            }
-        }
-        section {
-            font-size: 25px;
-            padding: 10px 50px;
-        }
-        @media(max-width:575px) {
-            section {
-                font-size: 4vw;
-                padding: 5vw;
-            }
+
+        button {
+            margin: 0 1rem;
+            padding: 0.45rem 0.75rem;
         }
     }
 }
