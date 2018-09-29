@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 const List = ({ todos }) => {
   return (
     <div className="list">
-      <ul>{todos.map(({ name }) => <li key={name}>{name}</li>)}</ul>
+      <ul>{todos.length === 0 ? <div>Your todo is empty...</div> : todos.map(({ name }) => <li key={name}>{name}</li>)}</ul>
     </div>
   )
 }
